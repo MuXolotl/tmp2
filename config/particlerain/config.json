@@ -1,9 +1,9 @@
 {
   "configVersion": 6,
   "perf": {
-    "maxParticleAmount": 1500,
-    "particleDensity": 50,
-    "particleStormDensity": 167,
+    "maxParticleAmount": 700,
+    "particleDensity": 30,
+    "particleStormDensity": 100,
     "particleDistance": 16,
     "surfaceRange": 100
   },
@@ -50,7 +50,7 @@
   },
   "mist": {
     "lifetime": 250,
-    "opacity": 1.0,
+    "opacity": 0.7,
     "size": 3.0,
     "renderStyle": "BLENDED"
   }

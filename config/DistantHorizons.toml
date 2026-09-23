@@ -809,7 +809,7 @@ _version = 4
 				# Note: this is a best effort number. 
 				# The actual render distance may be above or below this number 
 				# depending on your other graphic settings.
-				lodChunkRenderDistanceRadius = 256
+				lodChunkRenderDistanceRadius = 192
 				#
 				# How should the sides and bottom of grass block LODs render? 
 				# 
@@ -867,7 +867,7 @@ _version = 4
 				farFogMax = "1.0"
 				#
 				# Determines if fog is drawn on DH LODs.
-				enableDhFog = true
+				enableDhFog = false
 				#
 				# At what distance should the far fog start? 
 				# 
@@ -924,7 +924,7 @@ _version = 4
 					heightFogMin = "0.0"
 					#
 					# If the height fog is calculated around a set height, what is that height position?
-					heightFogBaseHeight = "80.0"
+					heightFogBaseHeight = "48.0"
 					#
 					# What is the maximum fog thickness? 
 					# 
@@ -940,7 +940,7 @@ _version = 4
 					heightFogFalloff = "EXPONENTIAL_SQUARED"
 					#
 					# What is the height fog's density?
-					heightFogDensity = "20.0"
+					heightFogDensity = "2.0"
 					#
 					# How should height effect the fog thickness? 
 					# Note: height fog is combined with the other fog settings. 

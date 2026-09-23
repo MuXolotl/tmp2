@@ -12,7 +12,7 @@
     "enableSoundPruning": true
   },
   "enhancedSounds": {
-    "enableEnhancedSounds": true,
+    "enableEnhancedSounds": false,
     "backgroundThreadWorkers": 0,
     "enableMonoConversion": true,
     "enableOcclusionProcessing": false,
@@ -32,9 +32,9 @@
   },
   "blockEffects": {
     "blockEffectRange": 32,
-    "steamColumnEnabled": true,
-    "flameJetEnabled": true,
-    "bubbleColumnEnabled": true,
+    "steamColumnEnabled": false,
+    "flameJetEnabled": false,
+    "bubbleColumnEnabled": false,
     "firefliesEnabled": true,
     "waterfallsEnabled": true,
     "enableWaterfallSounds": true,
@@ -48,12 +48,12 @@
     "enablePlayerToolbarEffect": true,
     "enableToolbarBlockSounds": false,
     "enableSwingEffect": true,
-    "enableBrushStepEffect": true
+    "enableBrushStepEffect": false
   },
   "footstepAccents": {
-    "enableAccents": true,
-    "enableArmorAccents": true,
-    "enableWetSurfaceAccents": true,
+    "enableAccents": false,
+    "enableArmorAccents": false,
+    "enableWetSurfaceAccents": false,
     "enableFloorSqueaks": false
   },
   "particleTweaks": {
